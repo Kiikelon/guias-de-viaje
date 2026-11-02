@@ -35,6 +35,12 @@ ul{padding-left:1.2rem}li{margin:.25rem 0}
 .check li:before{content:"☐ ";color:var(--acc)}
 footer{text-align:center;color:var(--muted);font-size:.85rem;padding:1.5rem 1rem 2.5rem}
 .pill{display:inline-block;border:1px solid var(--line);border-radius:20px;padding:.1rem .55rem;font-size:.8rem;margin:.1rem;background:#fff}
+.gal{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:.6rem;margin:.6rem 0}
+figure{margin:.6rem 0}figure img{width:100%;height:auto;border-radius:10px;border:1px solid var(--line);display:block}
+.gal figure img{aspect-ratio:3/2;object-fit:cover}
+figcaption{font-size:.8rem;color:var(--muted);margin-top:.25rem}
+.sum{background:#f3f9f4;border:1px solid #bfe0c9;border-radius:10px;padding:.8rem 1rem}
+.sum .big{font-size:1.5rem;font-weight:700;color:var(--acc);font-family:Georgia,serif}
 </style>
 </head>
 <body>
@@ -44,13 +50,60 @@ footer{text-align:center;color:var(--muted);font-size:.85rem;padding:1.5rem 1rem
 <p style="font-size:.9rem">Base: apartamento en Favoriten (distrito 10), a 1–3 min a pie del metro <b>U1 Troststraße</b> <span style="opacity:.8">(ubicación aproximada del anuncio)</span></p>
 </header>
 <nav>
-<a href="#plan">Plan día a día</a><a href="#rutas">Cómo llegar</a><a href="#billetes">Billetes</a><a href="#precios">Horarios y precios</a><a href="#cafes">Cafés</a><a href="#comer">Comer barato</a><a href="#navidad">Mercados navideños</a><a href="#tiempo">Tiempo</a><a href="#check">Checklist</a><a href="#presupuesto">Presupuesto</a><a href="#dudas">Dudas</a>
+<a href="#elegidos">Vuelos y alojamiento</a><a href="#plan">Plan día a día</a><a href="#rutas">Cómo llegar</a><a href="#billetes">Billetes</a><a href="#precios">Horarios y precios</a><a href="#cafes">Cafés</a><a href="#comer">Comer barato</a><a href="#navidad">Mercados navideños</a><a href="#tiempo">Tiempo</a><a href="#check">Checklist</a><a href="#presupuesto">Presupuesto</a><a href="#dudas">Dudas</a>
 </nav>
 <main>
 
 <section>
 <p class="note"><b>Leyenda:</b> <span class="free">GRATIS</span> = no cuesta nada · <span class="est">(est.)</span> = dato estimado o no confirmado en fuente oficial · <span class="ok">✔</span> = comprobado en web oficial o nota oficial el 2 nov 2026. Los tiempos de trayecto son <b>estimados</b> a partir de los horarios de Wiener Linien e incluyen ~3 min a pie hasta el metro y ~3 min de espera. Antes de cada trayecto, mirad la app <b>WienMobil</b> o Google Maps.</p>
 <p class="warn"><b>Ojo, que oscurece pronto:</b> el 15 de noviembre amanece hacia las 7:00 y se pone el sol hacia las <b>16:20</b> <span class="est">(est.)</span>. Dejad lo de exterior para la mañana y los mercados de Navidad (que ganan muchísimo con luces) para la tarde.</p>
+</section>
+
+<section id="elegidos">
+<h2>Vuelos y alojamiento elegidos</h2>
+<p class="warn"><b>Nada reservado.</b> Es la opción que hemos elegido, pero todavía no se ha comprado ni reservado nada. Precios consultados el 2 nov 2026; <b>pueden cambiar</b>.</p>
+
+<h3>✈️ Vuelos · Austrian Airlines, directos Valencia ⇄ Viena (2 adultos)</h3>
+<ul>
+<li><b>Ida:</b> OS 432 · domingo 15 nov 2026 · Valencia (VLC) 13:25 → Viena (VIE) 16:00 · 2 h 35 min, directo</li>
+<li><b>Vuelta:</b> jueves 19 nov 2026 · Viena (VIE) 10:00 → Valencia (VLC) 12:40 · 2 h 40 min, directo Austrian</li>
+</ul>
+<div class="tbl"><table>
+<tr><th>Tarifa (ida y vuelta, por persona)</th><th>Qué incluye</th><th>Precio</th></tr>
+<tr><td><b>Economy Basic</b> (la elegida)</td><td>Solo bulto personal bajo el asiento, 40×30×15 cm. Sin cambios ni reembolso.</td><td>237 €</td></tr>
+<tr><td>Economy Light</td><td>Añade maleta de cabina de 8 kg, 55×40×23 cm</td><td>257 €</td></tr>
+<tr><td><b>Total los dos en Basic</b></td><td></td><td><b>474 €</b></td></tr>
+</table></div>
+<p class="est">Consultado el 2 nov; puede cambiar.</p>
+<a class="btn" href="https://www.google.com/travel/flights?q=Flights%20from%20VLC%20to%20VIE%20on%202026-11-15%20through%202026-11-19%20nonstop" target="_blank" rel="noopener">Ver en Google Flights</a>
+<a class="btn" href="https://www.austrian.com/es/es/" target="_blank" rel="noopener">Web de Austrian</a>
+<figure><a href="img/vuelos_seleccionados_2nov.jpg"><img src="img/vuelos_seleccionados_2nov.jpg" alt="Captura de Google Flights con los vuelos Austrian del 15 y 19 de noviembre" loading="lazy"></a><figcaption>Vuelos seleccionados en Google Flights (2 nov 2026). El precio es por persona.</figcaption></figure>
+<figure><a href="img/austrian_tarifas_2nov.jpg"><img src="img/austrian_tarifas_2nov.jpg" alt="Captura de las tarifas Economy Basic, Light y Comfort de Austrian" loading="lazy"></a><figcaption>Tarifas de Austrian por persona: Basic 237 €, Light 257 €, Comfort 342 € (2 nov 2026).</figcaption></figure>
+
+<h3>🏠 Apartamento · Airbnb, Favoriten (junto al U1)</h3>
+<ul>
+<li><b>Alojamiento entero</b>, unos 55 m²: 1 dormitorio, 2 camas, 1,5 baños y <b>cocina</b>.</li>
+<li>Valoración <b>4,8</b> con 495 reseñas <span class="est">(fuente: Airbnb)</span>.</li>
+<li>Metro más cercano: <b>U1 Troststraße</b>, a unos 50 m · ~17 min hasta Stephansplatz.</li>
+<li><b>Entrada</b> desde las 15:00 con caja de llaves (self check-in) · <b>salida</b> antes de las 11:00.</li>
+<li><b>Precio:</b> ~292 € las 4 noches (15–19 nov) para 2 = 4 noches × 73 €, <b>antes de limpieza, comisión de Airbnb e impuestos</b> (se ven al reservar; tasa turística sin verificar). <span class="est">Consultado el 2 nov; puede cambiar.</span></li>
+<li id="cancelacion-apto"><b>Cancelación:</b> Cancelación gratuita (reembolso del 100 %) hasta el 10 nov a las 15:00 (hora de Viena). Hasta el 15 nov a las 15:00, reembolso del 50 % de todas las noches salvo la primera (la tarifa de servicio no se devuelve). Después, sin reembolso.</li>
+</ul>
+<a class="btn" href="https://www.airbnb.es/rooms/23867118?check_in=2026-11-15&amp;check_out=2026-11-19&amp;adults=2" target="_blank" rel="noopener">Ver el apartamento en Airbnb</a>
+<div class="gal">
+<figure><a href="img/apto_salon.jpg"><img src="img/apto_salon.jpg" alt="Salón del apartamento" loading="lazy"></a><figcaption>Salón</figcaption></figure>
+<figure><a href="img/apto_dormitorio.jpg"><img src="img/apto_dormitorio.jpg" alt="Dormitorio del apartamento" loading="lazy"></a><figcaption>Dormitorio</figcaption></figure>
+<figure><a href="img/apto_cocina.jpg"><img src="img/apto_cocina.jpg" alt="Rincón de la cocina con cafetera y hervidor" loading="lazy"></a><figcaption>Cocina (cafetera, hervidor y tostadora)</figcaption></figure>
+</div>
+<p class="est" style="margin-top:0">Fotos del anuncio de Airbnb.</p>
+<figure><a href="img/airbnb_precio_2nov.jpg"><img src="img/airbnb_precio_2nov.jpg" alt="Captura del anuncio de Airbnb con el detalle del precio: 4 noches por 73 €, 292 € en total" loading="lazy"></a><figcaption>Anuncio y detalle del precio en Airbnb (2 nov 2026): 4 noches × 73 € = 292 €, cancelación gratuita antes del 10 nov.</figcaption></figure>
+
+<h3>💶 Resumen</h3>
+<div class="sum">
+<p>Total estimado para los dos: <span class="big">~766 €</span></p>
+<p>Vuelos Austrian Basic 474 € + apartamento 292 €. <b>Sin gastos de limpieza ni comisiones</b> de Airbnb y sin tasa turística si no está incluida <span class="est">(sin verificar)</span>.</p>
+<p><b>Nada reservado.</b></p>
+</div>
 </section>
 
 <section id="plan">
@@ -264,7 +317,7 @@ footer{text-align:center;color:var(--muted);font-size:.85rem;padding:1.5rem 1rem
 <div class="tbl"><table>
 <tr><th>Concepto</th><th>Importe</th></tr>
 <tr><td>Vuelos Austrian Economy Basic (237 € × 2)</td><td>474 €</td></tr>
-<tr><td>Apartamento Airbnb, 4 noches</td><td>292 €</td></tr>
+<tr><td>Apartamento Airbnb, 4 noches (sin limpieza ni comisión de Airbnb)</td><td>292 €</td></tr>
 <tr><td><b>Subtotal</b></td><td><b>~766 €</b></td></tr>
 <tr><td>Ortstaxe 5 % (si no va incluida)</td><td>~14,60 € <span class="est">(est.)</span></td></tr>
 <tr><td>Transporte: abono 7 días en la app + aeropuerto (×2)</td><td>~59,60 € <span class="est">(est.)</span></td></tr>
